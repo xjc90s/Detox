@@ -51,6 +51,15 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Detox Copilot',
+      items: [
+        'copilot/testing-with-copilot',
+        'copilot/best-practices',
+        'copilot/technical-overview',
+      ]
+    },
+    {
+      type: 'category',
       label: 'Troubleshooting',
       items: [
         'troubleshooting/building-the-app',
@@ -107,6 +116,7 @@ const sidebars = {
         'api/webviews',
         'api/system',
         'api/logger',
+        'api/copilot',
       ]
     },
     'api/internals',
